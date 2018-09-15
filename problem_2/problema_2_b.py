@@ -3,7 +3,7 @@ import json
 import numpy as np
 
 path_to_data = '../'
-output_file = '../problema_2_b.csv'
+output_file = './problema_2_b.csv'
 
 players = json.load(open(path_to_data + 'players.json'))
 events = json.load(open(path_to_data + 'worldCup-final.json'))
